@@ -7,7 +7,7 @@ let itemshop = {
             itemAmount: itemAmount
         };
 
-        $.get('/itemshop/buy', parameters, function(response) {
+        $.post('/itemshop/buy', parameters, function(response) {
             if(response.msg) {
                 alert(response.msg);
             } else {
