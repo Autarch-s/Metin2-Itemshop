@@ -13,5 +13,5 @@ Available pages:
 - Mainpage which indicates your account information and characters
 - Itemshop page where you can buy free Itemshop items, after purchase you'll see them in your itemshop inventory
 
-## Image of the Login System
+## Image of the Login Page
 ![Login Panel](https://i.imgur.com/xrg8Je8.png)
