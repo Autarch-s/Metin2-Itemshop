@@ -9,7 +9,7 @@ let user = {
         };
 
 
-        $.get('/account/login', parameters, function(response) {
+        $.post('/account/login', parameters, function(response) {
             if(response.success && response.redirectUrl) {
                 window.location.href = response.redirectUrl;
             } else if(!response.success && response.msg) {
