@@ -18,7 +18,7 @@ let user = {
         }, 'json');
     },
     logout: function() {
-        $.get('/account/logout', {}, function(response) {
+        $.post('/account/logout', {}, function(response) {
             console.log(response);
             if(response.success && response.redirectUrl) {
                 window.location.href = response.redirectUrl;
