@@ -8,5 +8,10 @@ Used technologies:
 - Bootstrap 4
 - JQuery
 
-## Images
+Available pages:
+- Login page
+- Mainpage which indicates your account information and characters
+- Itemshop page where you can buy free Itemshop items, after purchase you'll see them in your itemshop inventory
+
+## Image of the Login System
 ![Login Panel](https://i.imgur.com/xrg8Je8.png)
